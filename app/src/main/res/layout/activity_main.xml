@@ -6,6 +6,7 @@
   <Button android:id="@+id/importClasses" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="1. Import class schedule (.ics)"/>
   <Button android:id="@+id/importEvents" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="2. Import TRUSU events (.ics)"/>
   <Button android:id="@+id/findEvents" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="3. Find events I can attend"/>
+  <Button android:id="@+id/getRecommendations" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="4. Get AI Recommendations"/>
   <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Available events" android:textSize="20sp" android:textStyle="bold" android:paddingTop="16dp" android:paddingBottom="8dp"/>
   <LinearLayout android:id="@+id/results" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical"/>
  </LinearLayout>
