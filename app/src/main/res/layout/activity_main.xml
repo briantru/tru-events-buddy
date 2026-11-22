@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+ <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="20dp">
+  <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="TRUSU Event Finder" android:textSize="26sp" android:textStyle="bold" android:paddingBottom="12dp"/>
+  <TextView android:id="@+id/status" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Import your classes and TRUSU events to get started." android:paddingBottom="12dp"/>
+  <Button android:id="@+id/importClasses" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="1. Import class schedule (.ics)"/>
+  <Button android:id="@+id/importEvents" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="2. Import TRUSU events (.ics)"/>
+  <Button android:id="@+id/findEvents" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="3. Find events I can attend"/>
+  <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Available events" android:textSize="20sp" android:textStyle="bold" android:paddingTop="16dp" android:paddingBottom="8dp"/>
+  <LinearLayout android:id="@+id/results" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical"/>
+ </LinearLayout>
+</ScrollView>
