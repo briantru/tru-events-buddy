@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="12dp"
+            android:text="TRU Events Buddy"
+            android:textAlignment="center"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/interests"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:hint="1. Enter your interests" />
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:columnCount="2"
+            android:rowCount="2">
+
+            <Button
+                android:id="@+id/importClasses"
+                android:layout_width="140dp"
+                android:layout_height="90dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:text="2.\nImport\nclasses"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/importEvents"
+                android:layout_width="140dp"
+                android:layout_height="90dp"
+                android:layout_gravity="center"
+                android:text="3.\nImport\nevents"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/findEvents"
+                android:layout_width="140dp"
+                android:layout_height="90dp"
+                android:layout_gravity="center"
+                android:text="4.\nFind events"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/getRecommendations"
+                android:layout_width="140dp"
+                android:layout_height="90dp"
+                android:layout_gravity="center"
+                android:text="5.\n✨ Suggest"
+                android:textSize="18sp" />
+        </GridLayout>
+
+        <TextView
+            android:id="@+id/status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingVertical="12dp"
+            android:text="Import your classes and TRUSU events to get started."
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:paddingBottom="8dp"
+            android:text="Available events"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/results"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </LinearLayout>
+</ScrollView>
